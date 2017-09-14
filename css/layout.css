@@ -8,8 +8,15 @@ header {
   height: 100px;
   background-color: cornflowerblue;
   text-align: center;
-  margin0;
- border: 5px solid red;
+  margin: 0;
+
+ border-bottom: 5px solid red;
+}
+header > h1 {
+margin: 0;
+text-align: center ;
+line-height: 70px;
+
 }
 
 
@@ -33,7 +40,7 @@ aside > nav > ul {
 
 aside > nav > ul > li {
   position: relative; /* want it relative to the position */
-  left: 50%; /* we move it 50 procent to left */
+  left: 50%; /* we move it 50 percent to left */
   transform: translateX(-50%); /* but then we allign to the center of this element */
   height: 62px;
   width: 62px;
