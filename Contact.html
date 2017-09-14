@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/layout.css">
+  <title>Contact</title>
+</head>
+<body>
+
+  <header>
+  <h1>  Contact Form </h1>
+  </header>
+  <div class="wrapper">
+    <aside class="left">
+      <nav id="nav2">
+        <ul>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Index.html">Index</a></li>
+          <li><a href="Blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="left">
+      <article>
+        <form method="post">
+            <fieldset>
+              <legend> Ask your question</legend>
+              <p>
+          <label for="type">Type:</label>
+          <select name="type" id="type">
+              <option value="1">Return a product</option>
+              <option value="2">Buy a product</option>
+              <option value="3">Problem with a product</option>
+
+          </select>
+      </p>
+        <label>Name:</label> <input type="text" name ="Name" /> </br>
+      <label> Question: </label> <textarea  name="Question" ></textarea>
+    </fieldset>
+
+      <fieldset>
+
+            <legend>How should I contact you ? </legend>
+       <input type="checkbox" name="choice" value="tel" id="telephone" /> <label for="tel">Telephone</label><br />
+          <input type="checkbox" name="choice" value="mail" id="mail" /> <label for="tel">E-mail</label><br />
+        </fieldset>
+        <input type="submit" value="Send" />
+      </form>
+      </article>
+
+
+    </main>
+    <aside class="left"><p><h4> Advertisement 1 </h4></p>
+    <img src="media/j.jpg" alt="pic of jacket 1 " />
+  <p> <h4> Advertisement 2 </h4></p>
+  <img src="media/j.jpg" alt="pic of jacket 2 " />
+  <p> <h4> Advertisement 3 </h4></p>
+  <img src="media/j.jpg" alt="pic of jacket 3 " /></aside>
+  </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: Olive;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: cornflowerblue;
+  text-align: center;
+  margin0;
+ border: 5px solid red;
+}
+
+
+.wrapper {
+  min-height: calc(100vh - 100px);
+  height: 500px;
+}
+.left {
+  float: left;
+}
+
+aside {
+  width: 15%;
+  text-align: center;
+}
+aside > nav > ul {
+  float: none;
+  list-style: none;
+  padding: 0;
+}
+
+aside > nav > ul > li {
+  position: relative; /* want it relative to the position */
+  left: 50%; /* we move it 50 procent to left */
+  transform: translateX(-50%); /* but then we allign to the center of this element */
+  height: 62px;
+  width: 62px;
+  margin: 3px;
+}
+aside > nav > ul >li > a{
+  display: inline-block;
+  height: 100%;
+  width: 100% ;
+
+  line-height: 62px;
+  color: white;
+  text-decoration: none;
+}
+aside > nav > ul >li > a:hover{
+							background-color: green;
+
+						}
+
+main {
+  width: 70%;
+  background-color: #ddd;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-bottom: 50px;
+  min-height: 100%;
+}
+
+main > article {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+main > article > h2 {
+  text-align: center;
+}
+
+main > article:last-child {
+  margin-bottom: 0;
+}
+
+main > article > img {
+  width: 80%;
+}

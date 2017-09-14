@@ -1,0 +1,6 @@
+article > ol {
+		display: inline-block;
+		}
+  main > article > img {
+      width: 60%
+    }
